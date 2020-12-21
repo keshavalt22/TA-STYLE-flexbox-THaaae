@@ -1,8 +1,96 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment level 3 flex</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/5c7f46ca99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="flex">
+                <a class="brand" href="#">Prism</a>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Generic</a>
+                    <a href="#">Elements</a>
+                </nav>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class=" para">
+                <div class="article-1 flex">
+                    <div class="col-1">
+                        <p class="p1">Welcome to Prism, a free responsive site template by TEMPLATED</p>
+                    </div>
+                    <hr class="hr">
+                    <div class="col-2">
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum quas esse voluptates molestias voluptatum tempora eaque saepe voluptate.</p>
+                        <button class="started-btn">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="container">
+            <div class="article-1 flex">
+                <div class="col-1">
+                    <h1>Magna feugiat adipisicing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At qui amet architecto nam, totam deserunt accusantium nostrum distinctio tenetur ipsa hic, tempore fugiat. Ea nesciunt doloribus omnis repellat tempora repellendus.</p>
+                    <button class="learn-btn">Learn More</button>
+                </div>
+                <hr>
+                <div class="col-2">
+                    <p><span class="check"><i class="fas fa-check"></i></span>Ipsum nisl sed cursus magna</p>
+                    <p><span class="check"><i class="fas fa-check"></i></span> Amet veroeros sed aliquam consequat</p>
+                    <p><span class="check"><i class="fas fa-check"></i></span>Tempus lorem adipiscing et lorem</p>
+                    <p><span class="check"><i class="fas fa-check"></i></span>Morbi pharetra vitae felis placerat</p>
+                    <p><span class="check"><i class="fas fa-check"></i></span>Pharetra nulla risus orci dapibus</p>
+                </div>
+            </div>
+            <hr>
+            <section class="section-1">
+                <div class="sub flex">
+                    <div class="col-3">
+                        <img src="assets/pic01.jpg" alt="Picture">
+                    </div>
+                    <div class="col-4">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur fugit unde beatae omnis rerum maiores neque deleniti error harum qui odit iusto nisi consectetur.</p>
+                        <button class="detail-btn">DETAILS</button>
+                    </div>
+                </div>
+                <div class=" sub flex">
+                    <div class="col-3">
+                        <img src="assets/pic02.jpg" alt="Picture">
+                    </div>
+                    <div class="col-4">
+                        <h2>Magna consequat felis</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur fugit unde beatae omnis rerum maiores neque deleniti error harum qui odit iusto nisi consectetur.</p>
+                        <button class="detail-btn">DETAILS</button>
+                    </div>
+                </div>
+                <div class="sub flex">
+                    <div class="col-3">
+                        <img src="assets/pic03.jpg" alt="Picture">
+                    </div>
+                    <div class="col-4">
+                        <h2>Vitae placerat adipiscing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur fugit unde beatae omnis rerum maiores neque deleniti error harum qui odit iusto nisi consectetur.</p>
+                        <button class="detail-btn">DETAILS</button>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="ipsum-btn">IPSUM MAGNA TEMPUS</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
